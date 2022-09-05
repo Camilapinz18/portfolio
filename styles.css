@@ -1,0 +1,284 @@
+
+
+body{ 
+	color:white; 
+	background-color: gray;
+	padding: 0 0 0 0;
+	margin:none;
+	display:flex;
+	flex-direction: column;
+	background-image: url(fondo.jpg);
+	background-attachment: fixed;
+	}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+article{
+	flex:2;
+	overflow-y: auto;
+}
+article div{
+	text-align: center;
+}
+
+aside{
+	flex:1;
+	overflow-y: auto;
+}
+
+.right{
+	padding: 0 0 0 0 ;
+	margin-top: 0px;
+}
+header{
+	margin: none;
+	padding: 0 0 0 0;
+	width: 100%;
+	background: linear-gradient(black, gray);
+	color:white;
+	}
+header h1{
+	padding: 0 50px;
+	font-size: 50px;
+	text-align: right;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+header ul{
+
+	/*background-image: url(header.jpg);*/
+	margin-right: 0;
+	margin-top: 0;
+	height: 60px;
+	color:white;
+	display: flex;	
+}
+header li{
+	padding:0px;
+	list-style: none;
+	flex-grow: 1;
+}
+
+header img{
+	display: block;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+#name{
+	text-align: right;
+}
+
+.menu ul{
+	font-family: 'Baloo Chettan 2', cursive;
+	background: linear-gradient(gray, white);
+	margin: auto;
+	margin-top: 40px;
+	list-style: none; /*Quita las viñetas*/
+	display: flex; /*Coloca los LI en una fila*/
+	/*justify-content: flex-end; /*Pone los LI al final*/
+}
+.menu li{
+	flex-grow: 1; /*Distribuye los li en toda la barra*/
+	text-align: center;
+	font-size: 20px;
+}
+.menu li:hover{
+	background:rgb(93,93,93,0.4);
+	cursor: pointer;
+}
+.menu li a{
+	display: block;
+	padding: 15px 20px; /*Arriba costados*/
+	color: white;
+	text-decoration: none; /*Quita el subrayado de link*/
+}
+
+#logo{
+	padding:0px 30px;
+}
+
+footer h4{
+	text-align: center;
+}
+
+/*-------------------------------------------*/
+
+main{
+	margin-top: 58px;
+	color:black;
+	background-color: white;
+}
+main h2{
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 30px;
+}
+
+
+
+.smallPhotos img:hover{
+	background-color: rgb(0,0,0,0.5);
+	border-style: solid;
+	border-color: red;
+}
+
+
+#introtext{
+	padding: 50px;
+	text-align: center;
+	font-size: 20px;
+	justify-content: justify;
+}
+
+#videoY{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+footer h3{
+	
+	text-align: center;
+	font-family: 'Baloo Chettan 2', cursive;
+	color: black;
+}
+
+footer h5{
+	
+	text-align: center;
+	font-family: 'Baloo Chettan 2', cursive;
+	color: black;	
+}
+footer h4{
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+#imgOurProducts{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote{
+	text-align: center;
+	border-style: solid;
+	border-color: yellow;
+	font-size: 20px;
+	font-style: oblique;
+}
+
+#disqus{
+	background: linear-gradient(white, rgb(0,0,0,0.5));
+	color:white;
+
+}
+#contact{
+	text-align: center;
+}
+
+/*------------------------------------------------*/
+
+.infoBrands p{
+	text-align: center;
+	justify-content: justify;
+	padding: 30px;
+}
+.infoBrands h2{
+	text-align: center;
+}
+
+#jackson{
+	margin-bottom: 80px;
+}
+#Ibanez{
+	margin-bottom: 80px;
+}
+#LTD{
+	margin-bottom: 80px;
+}
+#Gibson{
+	margin-bottom: 80px;
+}
+#Fender{
+	margin-bottom: 80px;
+}
+#Strandberg{
+	margin-bottom: 80px;
+}
+ /*------------------------------------*/
+ .shop{
+ 	text-align: center;
+ }
+ .shop h5, h2{
+ 	text-align: center;
+ 	font-family: 'Baloo Chettan 2', cursive;
+ }
+#info{
+	font-family: 'Baloo Chettan 2', cursive;
+	text-align: right;
+}
+
+.div1 {
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
+}
+table{
+	width: 100%;
+	justify-content: justify;
+}
+table td{
+	text-align: center;
+	justify-content: justify;
+	width: 50%;
+	background-color: rgb(0,0,0,0.1);
+}
+
+/*-------------------------------------*/
+
+form{
+	width: 400px;
+	margin:auto;
+	background-color: gray;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+form h2{
+	padding:5px;
+}
+form input{
+	margin: 10px 10px 10px 10px;
+}
+
+article div h3{
+	text-align: center;
+}
+#formBuy{
+	text-align: center;
+}
+
+#letus{
+	font-family: 'Baloo Chettan 2', cursive;
+}
+#message{
+	width: 92%;
+	height: 100px;
+}
+
+#contactForm{
+	margin-left: auto;
+	margin-right: auto;
+}
+#buyForm{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*---------------------------------------*/
+.twitter-tweet{
+	margin:auto;
+}
